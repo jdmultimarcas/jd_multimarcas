@@ -224,7 +224,7 @@ h1{
           background-color: #FFF;
         }
         .container{
-            max-width: 95%;
+            width: 95%;
             padding-top: 0;
         }
 
@@ -232,7 +232,7 @@ h1{
             margin: 0 auto;
         }
         .card{
-            max-width: 90%;
+            width: 90%;
             height: 100%;
         }
 
