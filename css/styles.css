@@ -4,17 +4,17 @@
 
 #index_html,
 .index_html{
-    background-color: #0fa3b1;
+    background-color: #62c3c8;
 }
 
 .linktree{
-    background-color: #0fa3b1;
+    background-color: #62c3c8;
 }
 
 .linktree a{
         color: #000;
         font-size: 8vh;
-        background-color: #0fa3b1;
+        background-color: #62c3c8;
     }
 
 .bottom_zap{
@@ -24,10 +24,10 @@
 
 .txtprodutos{
     font-size: 24px;
-    color: #bbb;
+    color: #000;
 }
 .insta{
-    font-size: 22px;
+    font-size: 19px;
     text-decoration: none;
     color: #000;
     padding-bottom: 25px;
@@ -38,9 +38,8 @@
     width: 95%;
     margin: 0 auto;
     height: 70vh;
-    border: 1px solid darkblue;
     text-align: center;
-    background-color: #0fa3b1;
+    background-color: #62c3c8;
 }
 
 .menu ul{
@@ -49,7 +48,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    list-style-type: circle;
+    list-style-type: none   ;
 }
 
 .menu li{
@@ -69,11 +68,6 @@
     padding: 20px;
     font-size: 28px;
 }
-
-.menu a:hover{
-    text-decoration: underline;
-}
-
 
 *{
     font-family: "Roboto", sans-serif;
@@ -143,7 +137,7 @@ h1 a{
 .card{
     max-width: 200px;
     /* height: 340px; */
-    /* border: 1px solid #0fa3b1; */
+    /* border: 1px solid #62c3c8; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,13 +161,13 @@ h1 a{
 }
 
 .produto-title{
-    color: #0fa3b1;
+    color: #62c3c8;
     text-decoration: underline;
     text-align: center;
 }
 
 .produto-size{
-    background-color: #0fa3b1;
+    background-color: #62c3c8;
     padding: 4px 5px;
     border-radius: 15px;
     font-weight: bold;
