@@ -69,6 +69,62 @@
     font-size: 28px;
 }
 
+.menuitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    height: 73vh;
+}
+
+.card_menu{
+    border: 1px solid darkcyan;
+    width: 46%;
+    height: 36%;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card_menu p{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item1{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/jaquetas/IMG-20240507-WA0034.jpg');
+}
+
+.item2{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240526/IMG-20240523-WA0133.jpg');
+}
+
+.item3{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240526/IMG-20240523-WA0037.jpg');
+}
+.item4{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/jaquetas/IMG-20240520-WA0033.jpg');
+}
+.item5{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240526/IMG-20240523-WA0046.jpg');
+}
+
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5{
+    background-size: cover;    
+}
+
 *{
     font-family: "Roboto", sans-serif;
     padding: 0;
@@ -76,6 +132,9 @@
 }
 
 
+h3{
+    text-align: center;
+}
 
 html{
     background-color: #e0e1dd;

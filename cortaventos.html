@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Corta Ventos</title>
+</head>
+<body>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+<img class="modal-content" id="img01">
+<div id="caption"></div>
+</div>
+    <header>
+        <div class="home">
+            <h1><a href="index.html">JD Multimarcas  <i class="bi bi-whatsapp"></i> (11) 99119-6632</a></h1>
+        </div>
+        <!-- <div class="media">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-whatsapp"></i>
+        </div> -->
+    </header>
+    <div class="container banner">
+        <h5>Corta Ventos</h5>
+    </div>
+    <div class="container produtos">
+        <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0039.jpg"></div>
+            <h3 class="produto-title">Jaqueta Corta Vento Boss</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 190,00</h4>
+        </div>
+        <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0040.jpg"></div>
+            <h3 class="produto-title">Jaqueta Corta Vento Adidas</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 190,00</h4>
+        </div>
+        <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0042.jpg"></div>
+            <h3 class="produto-title">Jaqueta Corta Vento Boss</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 190,00</h4>
+        </div>
+        <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0043.jpg"></div>
+            <h3 class="produto-title">Jaqueta Corta Vento Boss</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 190,00</h4>
+        </div>
+        <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0044.jpg"></div>
+            <h3 class="produto-title">Jaqueta Corta Vento Nike</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 190,00</h4>
+        </div>
+        <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0045.jpg"></div>
+            <h3 class="produto-title">Jaqueta Corta Vento Adidas</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 190,00</h4>
+        </div>
+        <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0046.jpg"></div>
+            <h3 class="produto-title">Jaqueta Corta Vento Nike</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 190,00</h4>
+        </div>
+        <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0047.jpg"></div>
+            <h3 class="produto-title">Jaqueta Corta Vento Boss</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 190,00</h4>
+        </div>
+        <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0048.jpg"></div>
+            <h3 class="produto-title">Jaqueta Corta Vento Adidas</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 190,00</h4>
+        </div>
+        <!-- <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0049.jpg"></div>
+            <h3 class="produto-title">Jaqueta Forrada Armani</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 280,00</h4>
+        </div> -->
+        <!-- <div class="card">
+            <div class="produto-img"><img class="thumbnail"  src="assets/produtos/20240526/IMG-20240523-WA0050.jpg"></div>
+            <h3 class="produto-title">Jaqueta Forrada Armani</h3>
+            <p class="produto-size">M ao GG</p>
+            <h4 class="produto-price">R$ 280,00</h4>
+        </div> -->
+    </div>
+        <div class="container bottom">
+            <a href="https://wa.me/5511959565095?text=Olá, tenho interesse nos produtos!" target="_blank">
+                <button>Peça pelo WhatsApp | <i class="bi bi-whatsapp"></i> </button>
+            </a>
+        </div>
+</body>
+<script>
+    // Get the modal
+    const modal = document.getElementById('myModal');
+    const modalImg = document.getElementById("img01");
+    const captionText = document.getElementById("caption");
+    var img = document.querySelectorAll('.thumbnail');
+    for (var i=0; i<img.length; i++){
+    img[i].onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+    }
+    }
+    // When the user clicks on <span> (x), close the modal
+    modal.onclick = function() {
+    img01.className += " out";
+    setTimeout(function() {
+    modal.style.display = "none";
+    img01.className = "modal-content";
+    }, 400);
+    }
+    </script>
+</html>
