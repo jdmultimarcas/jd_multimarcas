@@ -27,7 +27,8 @@
     color: #000;
 }
 .insta{
-    font-size: 19px;
+    font-size: 17px;
+    font-weight: bold;
     text-decoration: none;
     color: #000;
     padding-bottom: 25px;
@@ -140,12 +141,14 @@
 }
 
 .item71{
-    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240530/img%20(173).jpg');
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240615/img%20(166).jpg');
 }
+/* .item74{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240615/img%20(285).jpg');
+} */
 .item74{
-    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240530/img%20(291).jpg');
+    background-image: url('/assets/produtos/20240615/img%20(307).jpg');
 }
-
 
 .item1,
 .item2,
