@@ -147,8 +147,29 @@
     background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240615/img%20(285).jpg');
 } */
 .item74{
-    background-image: url('/assets/produtos/20240615/img%20(307).jpg');
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240615/img%20(307).jpg');
 }
+
+
+.item61{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240530/IMG-20240529-WA0220.jpg');
+}
+.item62{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240624/img%20(30).jpg');
+}
+.item63{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240615/img%20(80).jpg');
+}
+.item64{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20241006/047.JPG');
+}
+.item65{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240601/PHOTO-2024-06-05-11-20-08(1).jpg');
+}
+.item66{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240530/IMG-20240529-WA0221.jpg');
+}
+
 
 .item1,
 .item2,
@@ -161,7 +182,13 @@
 .item9,
 .item10,
 .item71,
-.item74
+.item74,
+.item61,
+.item62,
+.item63,
+.item64,
+.item65,
+.item66
 {
     background-size: cover;    
 }
