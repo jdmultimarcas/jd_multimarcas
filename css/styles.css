@@ -78,6 +78,18 @@
     height: 68vh;
 }
 
+.menuitemsbermudas .card_menu{
+    margin: 1px;
+    /* width: 90%; */
+}
+
+.menuitemsbermudas .card_menu p{
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: rgba(0,0,0,0.7);
+}
+
 .card_menu{
     border: 1px solid darkcyan;
     width: 46%;
@@ -169,10 +181,10 @@
 .item66{
     background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240530/IMG-20240529-WA1533.jpg');
 }
-.item66{
-    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240615/img%20(1533).jpg');
-}.item66{
-    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240530/IMG-20240529-WA1533.jpg');
+.item21{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240530/img%20(1533).jpg');
+}.item22{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20241006/022Copia.JPG');
 }
 
 
@@ -193,7 +205,9 @@
 .item63,
 .item64,
 .item65,
-.item66
+.item66,
+.item21,
+.item22
 {
     background-size: cover;    
 }
