@@ -162,8 +162,9 @@
 .item74{
     background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240615/img%20(307).jpg');
 }
-
-
+.item75{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240630/img%20(120).jpg');
+}
 .item61{
     background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240530/IMG-20240529-WA0220.jpg');
 }
@@ -210,7 +211,8 @@
 .item66,
 .item21,
 .item22,
-.item23
+.item23,
+.item75
 {
     background-size: cover;    
 }
