@@ -189,6 +189,11 @@
     background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20241006/022Copia.JPG');
 }.item23{
     background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240630/img%20(42).jpg');
+}.item67{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240630/img%20(81).jpg');
+}
+.item68{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240630/img%20(83).jpg');
 }
 
 .item1,
@@ -212,7 +217,9 @@
 .item21,
 .item22,
 .item23,
-.item75
+.item75,
+.item67,
+.item68
 {
     background-size: cover;    
 }
