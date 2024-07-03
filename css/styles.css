@@ -18,14 +18,8 @@
     }
 
 .bottom_zap{
-    padding-top: 5px;
     font-size: 24px;
     text-align: center;
-}
-
-.bottom_zap i{
-    font-size: 20px;
-    cursor: pointer;
 }
 
 .txtprodutos{
@@ -81,8 +75,7 @@
     flex-wrap: wrap;
     justify-content: center;
     overflow-y: scroll;
-    /* height: 68vh; */
-    height: 78vh;
+    height: 68vh;
     width: 100%;
 }
 
