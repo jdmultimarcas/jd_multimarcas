@@ -11,7 +11,7 @@
     <header>
         <div class="linktree">
             <h1 class="logo"><a href="index.html">JD Multimarcas</h1></a>
-            <p class="insta"><i class="bi bi-whatsapp"></i> (11) 99119-6632</p>
+            <!-- <p class="insta"><i class="bi bi-whatsapp"></i> (11) 99119-6632</p> -->
         </div>
     </header>   
     <h3>Camisetas</h3>
@@ -32,7 +32,9 @@
             <p>Regatas Basquete</p>
         </div>
     </div>
-    <div class="bottom_zap"><i class="bi bi-instagram"></i> jd_amultimarcas</div>
+    <div class="bottom_zap">
+      <i class="bi bi-instagram" id="link1"> | </i><i class="bi bi-whatsapp" id="link2"></i>
+    </div>
 </body>
 <script>
 const minhaDiv9 = document.getElementById('goto9');
@@ -55,6 +57,12 @@ minhaDiv75.addEventListener('click', function() {
 });
 minhaDiv76.addEventListener('click', function() {
   window.location.href = "https://jdmultimarcas.github.io/jd_multimarcas/regatas_basquete.html";
+});
+document.getElementById('link2').addEventListener('click', function() {
+  window.location.href = "https://wa.me/5511991196632";
+});
+document.getElementById('link1').addEventListener('click', function() {
+  window.location.href = "https://www.instagram.com/jd_amultimarcas?igsh=cmFpeGR3cTJ1M2V6";
 });
 
 </script>
