@@ -7,6 +7,10 @@
     background-color: #62c3c8;
 }
 
+header{
+    position: sticky;
+}
+
 .linktree{
     background-color: #62c3c8;
 }
