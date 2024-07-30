@@ -172,6 +172,9 @@ header{
 .item76{
     background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240630/img%20(778).jpg');
 }
+.item77{
+    background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240727/img%20(90).jpg');
+}
 .item61{
     background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240530/IMG-20240529-WA0220.jpg');
 }
@@ -203,6 +206,13 @@ header{
     background-image: url('https://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240630/img%20(83).jpg');
 }
 
+.item18{
+    background-image: url('http://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240727/img%20(27).jpg');
+}
+.item19{
+    background-image: url('http://jdmultimarcas.github.io/jd_multimarcas/assets/produtos/20240727/img%20(4).jpg');
+}
+
 .item1,
 .item2,
 .item3,
@@ -213,6 +223,8 @@ header{
 .item8,
 .item9,
 .item10,
+.item18,
+.item19,
 .item71,
 .item74,
 .item61,
@@ -226,6 +238,8 @@ header{
 .item23,
 .item75,
 .item67,
+.item76,
+.item77,
 .item68
 {
     background-size: cover;    
